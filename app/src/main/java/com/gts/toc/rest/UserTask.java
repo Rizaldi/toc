@@ -79,7 +79,7 @@ public class UserTask {
             }
         });
     }
-
+//for development
     public static void onLogin(final Context mContext, final Runnable mSuccessAction, final Runnable mFailedAction,
                                String User, String Password) {
         mLoadingDialog = ProgressDialog.show(mContext, "", mContext.getResources().getString(R.string.msg_loading));
