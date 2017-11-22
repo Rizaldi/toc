@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">TOC</string>
+    <string name="app_key">AIzaSyAMAo6jdFaewQL37aej7Mxl0JAgLAum6YE</string>
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_yes">YES</string>
+    <string name="btn_no">NO</string>
+    <string name="btn_delivery">DELIVERY</string>
+    <string name="btn_ambil">TAKEN</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="label_information">Information</string>
+    <string name="label_exit">Do you want to exit?</string>
+    <string name="label_logout">Are you sure to Log out ?</string>
+    <string name="sync_failed">Internet is in trouble, \n Click here to reload</string>
+    <string name="msg_no_internet">Internet is not available</string>
+    <string name="msg_internet_problem">Internet problems</string>
+
+    <!--VIEW LOGIN / REGISTER / RESET PASSWORD-->
+    <string name="tech_oncall">Technicians on Call</string>
+    <string name="label_user">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_password">Password</string>
+    <string name="label_old_password">Old Password</string>
+    <string name="label_new_password">New Password</string>
+    <string name="label_retypepassword">Retype Password</string>
+    <string name="label_login">already have an account?</string>
+    <string name="btn_login">SIGN IN</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_change">Change</string>
+    <string name="label_register">don\'t have an account?</string>
+    <string name="btn_register">SIGN UP</string>
+    <string name="msg_loading">Loading ...</string>
+    <string name="label_back_login">back to</string>
+
+    <string name="msg_user_notavailable">Username already in use</string>
+    <string name="msg_email_notavailable">Email already in use</string>
+    <string name="msg_username_empty">Username do not empty</string>
+    <string name="msg_email_empty">Email do not empty</string>
+    <string name="msg_email_invalid">Email does not match</string>
+    <string name="msg_phone_empty">Phone do not empty</string>
+    <string name="msg_phone_invalid">Phone does not match</string>
+    <string name="msg_password_empty">Password do not empty</string>
+    <string name="msg_registrasi_success">Registration is successful, \nPlease open your email for activation</string>
+    <string name="msg_registrasi_failed">Registration failed, \nUsername or Email already in use</string>
+    <string name="msg_login_success">Login successfully</string>
+    <string name="msg_login_failed">Login failed, \n Username and password do not match</string>
+    <string name="msg_user_notactive">Users are not yet active / not registered</string>
+    <string name="msg_user_noregistered">User not registered</string>
+    <string name="msg_update_success">Update profile successfully</string>
+    <string name="msg_update_failed">Update profile failed</string>
+    <string name="msg_oldpassword_empty">Old Password do not empty</string>
+    <string name="msg_newpassword_empty">New Password do not empty</string>
+    <string name="msg_repassword_empty">Retype Password do not empty</string>
+    <string name="msg_newpassword_invalid">Password do not match</string>
+    <string name="msg_change_password_success">Change password successfully, \nPlease login again</string>
+    <string name="msg_change_password_failed">Change password failed</string>
+    <string name="msg_change_password_notmatch">Old Password do not match</string>
+    <string name="msg_key_invalid">Auth key does not match</string>
+    <string name="msg_order_invalid">Orders can not be found / not suitable</string>
+    <string name="msg_reset_success">Password reset successfully, \nNew password has been sent to your email</string>
+
+
+    <!-- NAVIGATION MENU-->
+    <string name="nav_home">Home</string>
+    <string name="nav_header_account">Account</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_changepassword">Change Password</string>
+    <string name="nav_logout">Sign Out</string>
+    <string name="nav_header_service">Service</string>
+    <string name="nav_servicetype">Service Product</string>
+    <string name="nav_order">Order</string>
+    <string name="nav_history">History</string>
+    <string name="nav_servicecenter">Service Center</string>
+    <string name="nav_header_application">Application</string>
+    <string name="nav_update">Update</string>
+    <string name="nav_term">Terms and Conditions</string>
+    <string name="nav_about">About</string>
+    <string name="label_version">Version :</string>
+    <string name="app_desc">Technicians on Call (TOC) is an application developed by Gian Teknokindo Solutions (GTS). This application aims to provide convenience to the customer in an order services Service.</string>
+
+    <!-- ORDER VIEW -->
+    <string name="order_empty">Order not available, please create order first</string>
+    <string name="msg_history_empty">No order history</string>
+    <string name="label_orderid">Order No</string>
+    <string name="label_order">Service Order</string>
+    <string name="label_payment_confirmation">Payment Confirmation</string>
+    <string name="label_detail_order">Order Detail</string>
+    <string name="label_detail_history">History Detail</string>
+    <string name="label_order_detail">Service Order Detail</string>
+    <string name="label_standard">Standard</string>
+    <string name="label_spesific">Specific</string>
+    <string name="label_service_title">Service Title</string>
+    <string name="label_service_category">Service Category</string>
+    <string name="label_service_type">Service Type</string>
+    <string name="label_estimasi">Estimation</string>
+    <string name="label_description">Description</string>
+    <string name="label_address">Address</string>
+    <string name="label_send_order">Order</string>
+    <string name="btn_update">UPDATE</string>
+    <string name="msg_location_off">GPS off! \nPlease turn on GPS beforehand !</string>
+    <string name="msg_service_cost">The costs above the cost of service,</string>
+    <string name="msg_service_part">If there is a change of spare parts will be added to the price of spare parts</string>
+    <string name="msg_order_success">Order successfully, \nPlease make payment in advance</string>
+    <string name="msg_request_failed">Data do not exist / is not appropriate</string>
+    <string name="msg_order_night">Order successfully, \nWill be processed tomorrow because it\'s late, \nPlease make payment in advance</string>
+
+    <string name="msg_title_empty">Title do not empty</string>
+    <string name="msg_description_empty">Description do not empty</string>
+    <string name="msg_address_empty">Address do not empty</string>
+    <string name="msg_distance_empty">Please pick up first</string>
+    <string name="label_tech_name">Technician</string>
+    <string name="label_service">Service</string>
+    <string name="label_order_log">Order Log</string>
+
+    <string name="info_cancel">orders canceled</string>
+    <string name="info_payment_wait">orders accepted, pending payment</string>
+    <string name="info_payment_receive">payment received, waiting for a technician</string>
+    <string name="info_onprogress">in progress</string>
+    <string name="info_agreement">need to pick up, waiting for your approval</string>
+    <string name="info_payment_cancel">service was canceled, waiting for payment</string>
+    <string name="info_finish">services finished, waiting delivery</string>
+    <string name="info_lunas">repayment is received, the goods in progress</string>
+    <string name="info_delivery">delivery on progress</string>
+    <string name="info_end">goods received by the customer</string>
+    <string name="info_order_finish">repairs finished processing</string>
+    <string name="info_order_cancel">reservations canceled</string>
+    <string name="info_notdelivery">goods are not shipped, please take in a service center</string>
+    <string name="info_cost_wait">waiting cost approval</string>
+    <string name="info_delivery_agree_wait">waiting delivery approval</string>
+
+    <string name="label_batal">Are you sure will cancel this order?</string>
+    <string name="msg_cancel_success">Order successfully canceled</string>
+
+    <string name="label_payment_booking">Our technicians to visit, please make a payment %1$s to the bank account below ;</string>
+    <string name="label_payment_cancel">For the cost of checking by our team, please make a payment %1$s to the bank account below ;</string>
+
+    <string name="label_payment_lunas">Please make payment service costs by %1$s to the bank account below ;</string>
+    <string name="label_payment_desc">Make confirmation on receipt of payment in the area below.</string>
+    <string name="rekening">Rec. %1$s, Acc Name %2$s \nNo. %3$s</string>
+    <string name="payment_date">Payment Date</string>
+    <string name="label_estimasi_spesific">Cost is calculated after inspection by a technician</string>
+    <string name="label_cost">Cost estimation</string>
+    <string name="label_select_image">Choose image</string>
+    <string name="label_distance">Distance from GTS</string>
+    <string name="over_distance">Your location is not included in our range</string>
+    <string name="msg_confirm_success">Confirmation of payments successfully</string>
+    <string name="waiting_technician">Waiting technician</string>
+    <string name="pick_up_approval">Need to pick up, \n Do you agree to pick up this ?</string>
+    <string name="cost_approval">Total cost: Rp. %1$s \n \n Do you want to process this?</string>
+    <string name="delivery_info">The goods have been delivered, \n Do you have accepted?</string>
+    <string name="delivery_approval">The order was canceled, \n delivery will be charged, \n \n goods be sent or retrieved?</string>
+
+    <string name="slide_1">Welcome</string>
+    <string name="slide_2"> </string>
+    <string name="slide_3"> </string>
+    <string name="slide_4"> </string>
+
+    <string name="slide_1_subtitle">Service gadget more easily with the TOC, mobile applications by Giant Teknokindo Solutions</string>
+    <string name="slide_2_subtitle">Registration, select the service, record complaints</string>
+    <string name="slide_3_subtitle" >Our technician come to your place, the problem is finished</string>
+    <string name="slide_4_subtitle">Gadget function again, all happy</string>
+
+    <string name="tutorial_done">DONE</string>
+    <string name="tutorial_skip">SKIP</string>
+    <string name="label_claim">Warranty Claim</string>
+    <string name="label_problem">Problem</string>
+    <string name="btn_send">Send</string>
+    <string name="msg_claim_success">Claims successfully sent</string>
+    <string name="msg_claim_failed">Claim failed to be sent, \n Please try again</string>
+    <string name="info_claim_receive">Claims received, waiting for a technician</string>
+
+    <string name="label_bank_name">Bank Name</string>
+    <string name="label_nominal">Nominal</string>
+    <string name="label_price_cost">Cost</string>
+    <string name="label_cashback">Cash Back</string>
+    <string name="label_payment">Payment</string>
+    <string name="btn_claim">CLAIM</string>
+    <string name="info_garansi">The process of claim transfer to Service center. Tel (021) 29120825</string>
+    <string name="info_cost_agreement">approved costs, waiting for redemption</string>
+    <string name="label_desc">Description</string>
+    <string name="msg_empty_image">Proof of transfer can not be empty</string>
+    <string name="msg_empty_nominal">Total transfer can not be empty</string>
+    <string name="label_click_attach">Click the icon to attach proof of transfer.</string>
+    <string name="label_select_category">Select Category</string>
+    <string name="label_select_type">Select Type</string>
+    <string name="msg_category_select">Please Select Category</string>
+    <string name="msg_type_select">Please Select Type</string>
+    <string name="label_click">Click here >></string>
+
+    <string name="term_desc">
+         <![CDATA[
+            Dengan men-download dan menggunakan Aplikasi "TOC", berarti Anda telah membaca sesuatu, menerima dan menyetujui persyaratan penggunaan. <br/>
+            Persyaratan penggunaan ini adalah perjanjian yang sah antara Giant Teknokindo Solusi (GTS) sebagai penyedia jasa dengan Anda sebagai pengguna aplikasi. Silakan hapus aplikasi ini jika Anda tidak setuju dengan persyaratan penggunaan. <br/> <br/>
+            1. Setiap pengguna harus memberikan informasi yang benar tentang data pribadi yang disediakan melalui aplikasi ini. <br/> <br/>
+            2. Setiap order yang dibuat akan dikenakan biaya untuk kunjugan Teknisi, sebagai tanda keseriusan pemesanan jasa kami. <br/> <br/>
+            3. Apabila pemesanan dibatalkan sepihak oleh pemesan, maka biaya tidak dapat diminta kembali. <br/> <br/>
+            4. Setelah dilakukan pengecekan oleh teknisi kami, pemesan harus membayar terlebih dahulu supaya dapat dikerjakan oleh teknisi kami. <br/> <br/>
+            5. Dalam kondisi tertentu barang yang diservice akan dibawa oleh Teknisi untuk penanganan lebih lanjut dengan persetujuan pemesan. <br/>
+        ]]>
+    </string>
+    <string name="label_claimid">Claim No</string>
+    <string name="claim_finish">Repairs have been completed, \nDo you\'ve picked it up?</string>
+    <string name="label_wait_estimation">Waiting cost Estimation</string>
+    <string name="claim_completed">Repair is completed, please take!</string>
+</resources>

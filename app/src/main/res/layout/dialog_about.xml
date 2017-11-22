@@ -1,0 +1,45 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:padding="@dimen/fab_margin">
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/input_margin"
+        android:textColor="@android:color/black"
+        android:alpha="0.7"
+        android:textSize="@dimen/textsize3"
+        android:text="@string/app_desc"/>
+
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/description"
+         android:orientation="horizontal">
+
+         <TextView
+             android:id="@+id/versionLabel"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="@dimen/input_padding"
+             android:textColor="@android:color/black"
+             android:alpha="0.7"
+             android:textSize="@dimen/textsize3"
+             android:text="@string/label_version"
+             android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/versionDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:alpha="0.7"
+            android:textSize="@dimen/textsize3"/>
+    </LinearLayout>
+
+</RelativeLayout>

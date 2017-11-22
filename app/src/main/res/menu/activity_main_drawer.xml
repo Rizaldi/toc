@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/nav_home" />
+    </group>
+    <item android:title="@string/nav_header_account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_account_box_black_24dp"
+                    android:title="@string/nav_profile" />
+                <item
+                    android:id="@+id/nav_changepassword"
+                    android:icon="@drawable/ic_lock_open_black_24dp"
+                    android:title="@string/nav_changepassword" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_power_settings_new_black_24dp"
+                    android:title="@string/nav_logout" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_header_service">
+        <menu>
+            <group android:checkableBehavior="single">
+                <!--<item-->
+                    <!--android:id="@+id/nav_servicetype"-->
+                    <!--android:icon="@drawable/ic_settings_applications_black_24dp"-->
+                    <!--android:title="@string/nav_servicetype" />-->
+                <item
+                    android:id="@+id/nav_order"
+                    android:icon="@drawable/ic_assignment_black_24dp"
+                    android:title="@string/nav_order" />
+                <item
+                    android:id="@+id/nav_history"
+                    android:icon="@drawable/ic_history_black_24dp"
+                    android:title="@string/nav_history" />
+                <!--<item-->
+                    <!--android:id="@+id/nav_servicecenter"-->
+                    <!--android:icon="@drawable/ic_contact_phone_black_24dp"-->
+                    <!--android:title="@string/nav_servicecenter" />-->
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/nav_header_application">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_term"
+                    android:icon="@drawable/ic_assignment_black_24dp"
+                    android:title="@string/nav_term" />
+                <item
+                    android:id="@+id/nav_update"
+                    android:icon="@drawable/ic_system_update_alt_black_24dp"
+                    android:title="@string/nav_update" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_info_black_24dp"
+                    android:title="@string/nav_about" />
+            </group>
+        </menu>
+    </item>
+</menu>

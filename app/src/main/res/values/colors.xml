@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f47d1c</color>
+    <color name="colorPrimaryDark">#e65100</color>
+    <color name="colorAccent">#ff6d00</color>
+    <color name="colorUnderLine">#cac9c9</color>
+    <color name="colorSelected">#ff4800</color>
+    <color name="light_gray">#cac9c9</color>
+    <color name="dark_gray">@android:color/darker_gray</color>
+    <color name="colorBackground">#f5f3f3</color>
+    <color name="colorButton">#009688</color>
+    <color name="colorInfo">#f44336</color>
+    <color name="colorInfogreen">#07b93f</color>
+    <color name="slide_1">#ff6d00</color>
+    <color name="slide_2">#5ab55d</color>
+    <color name="slide_3">#4f91ff</color>
+    <color name="slide_4">#f47d1c</color>
+    <color name="tutorial_buttonTextColor">#ffffff</color>
+    <color name="tutorial_subtitleTextColor">#ffffff</color>
+    <color name="tutorial_titleTextColor">#ffffff</color>
+    <color name="colorClaim">#fcee26</color>
+</resources>

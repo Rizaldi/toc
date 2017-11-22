@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">TOC</string>
+    <string name="app_key">AIzaSyAMAo6jdFaewQL37aej7Mxl0JAgLAum6YE</string>
+
+    <string name="btn_ok">OKE</string>
+    <string name="btn_yes">YA</string>
+    <string name="btn_no">TIDAK</string>
+    <string name="btn_delivery">dikirim</string>
+    <string name="btn_ambil">diambil</string>
+    <string name="btn_cancel">BATAL</string>
+    <string name="label_information">Informasi</string>
+    <string name="label_exit">Anda yakin menutup aplikasi ini?</string>
+    <string name="label_logout">Anda yakin ingin keluar ?</string>
+    <string name="sync_failed">Internet anda bermasalah, \n Klik di sini untuk memuat ulang</string>
+    <string name="msg_no_internet">Internet tidak tersedia</string>
+    <string name="msg_internet_problem">Internet bermasalah</string>
+
+    <!--VIEW LOGIN / REGISTER / RESET PASSWORD-->
+    <string name="tech_oncall">Technicians on Call</string>
+    <string name="label_user">Nama</string>
+    <string name="label_email">Email</string>
+    <string name="label_phone">Telepon</string>
+    <string name="label_password">Password</string>
+    <string name="label_old_password">Password Lama</string>
+    <string name="label_new_password">Password Baru</string>
+    <string name="label_retypepassword">Ketik Ulang Password</string>
+    <string name="label_login">sudah punya akun?</string>
+    <string name="btn_login">MASUK</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_change">Ubah</string>
+    <string name="label_register">tidak punya akun?</string>
+    <string name="btn_register">DAFTAR</string>
+    <string name="msg_loading">Menunggu ...</string>
+    <string name="label_back_login">kembali</string>
+
+    <string name="msg_user_notavailable">Nama sudah digunkan</string>
+    <string name="msg_email_notavailable">Email sudah digunkan</string>
+    <string name="msg_username_empty">Nama tidak boleh kosong</string>
+    <string name="msg_email_empty">Email tidak boleh kosong</string>
+    <string name="msg_email_invalid">Email tidak sesuai</string>
+    <string name="msg_phone_empty">Telepon tidak boleh kosong</string>
+    <string name="msg_phone_invalid">Nomor telepon tidak sesuai</string>
+    <string name="msg_password_empty">Password tidak boleh kosong</string>
+    <string name="msg_registrasi_success">Pendaftaran berhasil, \nSilahkan buka email anda untuk aktivasi</string>
+    <string name="msg_registrasi_failed">Pendaftaran gagal, \nUsername atau Email sudah digunakan</string>
+    <string name="msg_login_success">Login berhasil</string>
+    <string name="msg_login_failed">Login gagal, \nUser/Email dan Password tidak sesuai</string>
+    <string name="msg_user_notactive">Pengguna belum aktif / tidak terdaftar</string>
+    <string name="msg_user_noregistered">Pengguna belum terdaftar</string>
+    <string name="msg_update_success">Update profile berhasil</string>
+    <string name="msg_update_failed">Update profile gagal</string>
+    <string name="msg_oldpassword_empty">Password lama tidak boleh kosong</string>
+    <string name="msg_newpassword_empty">Password baru tidak boleh kosong</string>
+    <string name="msg_repassword_empty">Password ulang tidak boleh kosong</string>
+    <string name="msg_newpassword_invalid">Password ulang tidak sesuai</string>
+    <string name="msg_change_password_success">Ubah password berhasil, \nSilahkan login ulang</string>
+    <string name="msg_change_password_failed">Ubah password gagal</string>
+    <string name="msg_change_password_notmatch">Password lama tidak sesuai</string>
+    <string name="msg_key_invalid">Auth key tidak sesuai</string>
+    <string name="msg_order_invalid">Pesanan tidak ditemukan/tidak sesuai</string>
+    <string name="msg_reset_success">Reset password berhasil, \nPassword yang baru sudah dikirim ke email anda</string>
+
+
+    <!-- NAVIGATION MENU-->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_header_account">Akun</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_changepassword">Ubah Password</string>
+    <string name="nav_logout">Keluar</string>
+    <string name="nav_header_service">Service</string>
+    <string name="nav_servicetype">Service Product</string>
+    <string name="nav_order">Order</string>
+    <string name="nav_history">Riwayat</string>
+    <string name="nav_servicecenter">Service Center</string>
+    <string name="nav_header_application">Aplikasi</string>
+    <string name="nav_update">Update</string>
+    <string name="nav_term">Ketentuan dan Kondisi</string>
+    <string name="nav_about">Tentang Aplikasi</string>
+    <string name="label_version">Versi :</string>
+    <string name="app_desc">Technicians on Call (TOC) merupakan aplikasi yang dikembangkan oleh Gian Teknokindo Solusi (GTS). Aplikasi ini bertujuan untuk memberi kemudahan kepada Customer dalam melakukan pemesanan jasa Service.</string>
+
+    <!-- ORDER VIEW -->
+    <string name="order_empty">Tidak ada pesanan, \n Silahkan isi form pemesanan dahulu</string>
+    <string name="msg_history_empty">Tidak ada riwayat pemesanan</string>
+    <string name="label_orderid">Order No</string>
+    <string name="label_order">Service Order</string>
+    <string name="label_payment_confirmation">Konfirmasi Pembayaran</string>
+    <string name="label_detail_order">Detail Order</string>
+    <string name="label_detail_history">Detail Riwayat</string>
+    <string name="label_order_detail">Detail Order Layanan</string>
+    <string name="label_standard">Standar</string>
+    <string name="label_spesific">Specifik</string>
+    <string name="label_service_title">Judul Service</string>
+    <string name="label_service_category">Kategori Service</string>
+    <string name="label_service_type">Jenis Service</string>
+    <string name="label_estimasi">Perkiraan</string>
+    <string name="label_description">Penjelasan</string>
+    <string name="label_address">Alamat</string>
+    <string name="label_send_order">Order</string>
+    <string name="btn_update">UBAH</string>
+    <string name="msg_location_off">GPS mati! \nSilahkan hidupkan GPS terlebih dahulu !</string>
+    <string name="msg_service_cost">Biaya di atas merupakan biaya service,</string>
+    <string name="msg_service_part">Apabila ada pergantian spare part akan ditambah harga spare partnya</string>
+    <string name="msg_order_success">Pemesanan berhasil, \nSilahkan lakukan pembayaran dahulu</string>
+    <string name="msg_request_failed">Data tidak ada / tidak sesuai</string>
+    <string name="msg_order_night">Pemesanan berhasil, \nAkan diproses esok hari karena sudah malam, \nSilahkan lakukan pembayaran dahulu</string>
+
+    <string name="msg_title_empty">Judul tidak boleh kosong</string>
+    <string name="msg_description_empty">Penjelasan tidak boleh kosong</string>
+    <string name="msg_address_empty">Alamat tidak boleh kosong</string>
+    <string name="msg_distance_empty">Silahkan pick up, terlebih dahulu</string>
+    <string name="label_tech_name">Teknisi</string>
+    <string name="label_service">Service</string>
+    <string name="label_order_log">Order Log</string>
+
+    <string name="info_cancel">pesanan dibatalkan</string>
+    <string name="info_payment_wait">pesanan diterima, menunggu pembayaran</string>
+    <string name="info_payment_receive">pembayaran diterima, menunggu teknisi</string>
+    <string name="info_onprogress">dalam proses pengerjaan</string>
+    <string name="info_agreement">barang perlu pick up, menunggu persetujuan anda</string>
+    <string name="info_payment_cancel">service dibatalkan, menunggu pembayaran</string>
+    <string name="info_finish">barang selesai diperbaiki, menunggu pengiriman</string>
+    <string name="info_lunas">pelunasan diterima, barang dalam proses pengerjaan</string>
+    <string name="info_delivery">barang sudah dikirim</string>
+    <string name="info_end">barang diterima oleh pelangan</string>
+    <string name="info_order_finish">perbaikan selesai diproses</string>
+    <string name="info_order_cancel">pemesanan dibatalkan</string>
+    <string name="info_notdelivery">barang tidak dikirim, silahkan ambil di service center</string>
+    <string name="info_cost_wait">menunggu persetujuan biaya</string>
+    <string name="info_delivery_agree_wait">menunggu persetujuan pengiriman</string>
+
+    <string name="label_batal">Anda yakin akan membatalkan pesanan ini?</string>
+    <string name="msg_cancel_success">Pesanan berhasil dibatalkan</string>
+
+    <string name="label_payment_booking">Untuk kunjungan teknisi kami, Silahkan lakukan pembayaran %1$s ke nomor rekening di bawah ini ;</string>
+    <string name="label_payment_cancel">Untuk biaya pengecekan oleh team kami, Silahkan lakukan pembayaran %1$s ke nomor rekening di bawah ini ;</string>
+    <string name="label_payment_lunas">Silahkan lakukan pembayaran biaya service sebesar %1$s ke nomor rekening di bawah ini ;</string>
+    <string name="label_payment_desc">Lakukan konfirmasi dengan melampirkan bukti pembayarannya pada area di bawah ini.</string>
+    <string name="rekening">Rek. %1$s, a.n %2$s \nNo. Rek %3$s</string>
+    <string name="payment_date">Tanggal Pembayaran</string>
+    <string name="label_estimasi_spesific">Biaya dikalkulasi setelah diperiksa oleh teknisi</string>
+    <string name="label_cost">Perkiraan biaya</string>
+    <string name="label_select_image">Pilih gambar</string>
+    <string name="label_distance">Jarak dari GTS</string>
+    <string name="over_distance">Lokasi anda tidak masuk dalam jangkauan kami</string>
+    <string name="msg_confirm_success">Konfirmasi pembayaran berhasil</string>
+    <string name="waiting_technician">Menunggu Teknisi</string>
+    <string name="pick_up_approval">Barang perlu di pick up,\nApakah anda setuju barangnya di pick up?</string>
+    <string name="cost_approval">Total biaya : Rp. %1$s \n\nApakah anda ingin melajutkan prosesnya?</string>
+    <string name="delivery_info">Barang sudah dikirim, \nApakah anda sudah menerimanya?</string>
+    <string name="delivery_approval">Pesanan sudah dibatalkan, \npengiriman akan dikenakan biaya,\n\nBarang akan dikirim atau diambil?</string>
+
+    <string name="slide_1">Selamat Datang</string>
+    <string name="slide_2"> </string>
+    <string name="slide_3"> </string>
+    <string name="slide_4"> </string>
+
+    <string name="slide_1_subtitle">Service gedget lebih mudah dengan TOC, aplikasi mobile oleh Giant Teknokindo Solusi</string>
+    <string name="slide_2_subtitle">Registrasi, pilih layanan, catat keluhan</string>
+    <string name="slide_3_subtitle" >Teknisi kami datang ke tempat anda, masalah selesai</string>
+    <string name="slide_4_subtitle">Gedget berfungsi kembali, semua senang</string>
+
+    <string name="tutorial_done">LANJUT</string>
+    <string name="tutorial_skip">LEWATI</string>
+    <string name="label_claim">Klaim Garansi</string>
+    <string name="label_problem">Masalah</string>
+    <string name="btn_send">Kirim</string>
+    <string name="msg_claim_success">Klaim berhasil dikirim</string>
+    <string name="msg_claim_failed">Klaim gagal dikirim, \nSilahkan dicoba kembali</string>
+    <string name="info_claim_receive">Klaim diterima, menunggu teknisi</string>
+
+    <string name="label_bank_name">Nama Bank</string>
+    <string name="label_nominal">Jumlah</string>
+    <string name="label_price_cost">Biaya</string>
+    <string name="label_cashback">Potongan</string>
+    <string name="label_payment">Pembayaran</string>
+    <string name="btn_claim">KLAIM</string>
+    <string name="info_garansi">Proses claim diantar ke Servive center. Telp (021) 29120825</string>
+    <string name="info_cost_agreement">biaya disetujui, menunggu pelunasan</string>
+    <string name="label_desc">Deskripsi</string>
+    <string name="msg_empty_image">Bukti transfer tidak boleh kosong</string>
+    <string name="msg_empty_nominal">Jumlah transfer tidak boleh kosong</string>
+    <string name="label_click_attach">Klik icon untuk melampirkan bukti transfer.</string>
+    <string name="label_select_category">Pilih Kategori</string>
+    <string name="label_select_type">Pilih Type</string>
+    <string name="msg_category_select">Kategori harus dipilih</string>
+    <string name="msg_type_select">Type harus dipilih</string>
+    <string name="label_click">Klik di sini >></string>
+
+    <string name="term_desc">
+         <![CDATA[
+            Dengan men-download dan menggunakan Aplikasi "TOC", berarti Anda telah membaca sesuatu, menerima dan menyetujui persyaratan penggunaan. <br/>
+            Persyaratan penggunaan ini adalah perjanjian yang sah antara Giant Teknokindo Solusi (GTS) sebagai penyedia jasa dengan Anda sebagai pengguna aplikasi. Silakan hapus aplikasi ini jika Anda tidak setuju dengan persyaratan penggunaan. <br/> <br/>
+            1. Setiap pengguna harus memberikan informasi yang benar tentang data pribadi yang disediakan melalui aplikasi ini. <br/> <br/>
+            2. Setiap order yang dibuat akan dikenakan biaya untuk kunjugan Teknisi, sebagai tanda keseriusan pemesanan jasa kami. <br/> <br/>
+            3. Apabila pemesanan dibatalkan sepihak oleh pemesan, maka biaya tidak dapat diminta kembali. <br/> <br/>
+            4. Setelah dilakukan pengecekan oleh teknisi kami, pemesan harus membayar terlebih dahulu supaya dapat dikerjakan oleh teknisi kami. <br/> <br/>
+            5. Dalam kondisi tertentu barang yang diservice akan dibawa oleh Teknisi untuk penanganan lebih lanjut dengan persetujuan pemesan. <br/>
+        ]]>
+    </string>
+    <string name="label_claimid">Claim No</string>
+    <string name="claim_finish">Perbaikan sudah selesai, \nApakah anda sudah mengambilnya?</string>
+    <string name="label_wait_estimation">menunggu estimasi biaya</string>
+    <string name="claim_completed">Perbaikan selesai, silahkan ambil!</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/splashLogo"
+            android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/logo_height"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo"
+            android:tint="@android:color/white"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/input_padding"-->
+            <!--android:layout_below="@+id/splashLogo"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="@dimen/textsize4"-->
+            <!--android:text="@string/tech_oncall" />-->
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/profile_top_margin"
+        android:layout_below="@+id/layoutLogo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressBar"/>
+</RelativeLayout>

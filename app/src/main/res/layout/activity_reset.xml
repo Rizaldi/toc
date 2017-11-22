@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image"
+    android:paddingTop="@dimen/fab_margin">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
+        android:layout_marginTop="@dimen/logo_top_margin"
+        android:src="@drawable/logo"
+        android:tint="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+    <!--<TextView-->
+        <!--android:id="@+id/textviewTOC"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="2dp"-->
+        <!--android:layout_below="@+id/imageView"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="@dimen/textsize2"-->
+        <!--android:text="@string/tech_oncall" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layoutLogin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/fab_margin"
+            android:paddingLeft="@dimen/fab_margin"
+            android:paddingRight="@dimen/fab_margin"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:gravity="bottom">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <EditText
+                    android:id="@+id/input_email"
+                    android:layout_width="@dimen/login_width"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/input_margin"
+                    android:paddingBottom="@dimen/input_margin"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:layout_marginTop="@dimen/input_padding"
+                    android:layout_marginBottom="@dimen/input_padding"
+                    android:textSize="@dimen/textsize4"
+                    android:textColorHint="@color/colorPrimary"
+                    android:hint="@string/label_email"
+                    android:background="@drawable/text_bg"
+                    android:singleLine="true"/>
+            </RelativeLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnReset"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginBottom="@dimen/button_bottom_margin"
+                android:paddingLeft="@dimen/input_margin"
+                android:paddingRight="@dimen/input_margin"
+                android:paddingTop="@dimen/input_padding"
+                android:paddingBottom="@dimen/input_padding"
+                android:text="@string/btn_reset"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_horizontal" />
+
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_toLeftOf="@+id/linkLogin"-->
+                        <!--android:layout_toStartOf="@+id/linkLogin"-->
+                        <!--android:text="@string/label_back_login"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:textSize="@dimen/textsize2"-->
+                        <!--android:layout_centerVertical="true"/>-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/linkLogin"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:padding="@dimen/input_margin"-->
+                        <!--android:text="@string/btn_login"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:textSize="@dimen/textsize3"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:layout_alignParentTop="true"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_alignParentEnd="true" />-->
+                <!--</RelativeLayout>-->
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/layoutLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/fab_margin"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/input_margin"
+            android:paddingBottom="@dimen/input_margin"
+            android:layout_marginRight="@dimen/input_padding"
+            android:layout_marginEnd="@dimen/input_padding"
+            android:layout_toLeftOf="@+id/linkLogin"
+            android:layout_toStartOf="@+id/linkLogin"
+            android:text="@string/label_back_login"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize2"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/linkLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/input_margin"
+            android:paddingBottom="@dimen/input_margin"
+            android:text="@string/btn_login"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize3"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

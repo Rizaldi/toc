@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/MessageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/fab_margin"
+        android:paddingBottom="@dimen/fab_margin"
+        android:textColor="@android:color/black"
+        android:alpha="0.8"
+        android:textSize="@dimen/textsize4"
+        android:text="@string/label_claim"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorUnderLine"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:paddingBottom="@dimen/fab_margin"
+        android:layout_below="@+id/MessageTitle">
+
+        <RelativeLayout
+            android:id="@+id/layoutMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutType"
+            android:layout_marginTop="@dimen/input_margin"
+            android:paddingBottom="@dimen/input_padding"
+            android:background="@drawable/underline">
+            <TextView
+                android:id="@+id/viewMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/input_padding"
+                android:textSize="@dimen/textsize2"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/label_problem"/>
+            <EditText
+                android:id="@+id/input_Problem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viewMessage"
+                android:textColor="@android:color/black"
+                android:alpha="0.6"
+                android:textSize="@dimen/textsize3"
+                android:background="@android:color/transparent" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

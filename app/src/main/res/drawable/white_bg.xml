@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:left="@dimen/input_padding"
+		android:right="@dimen/input_padding">
+    	<shape
+			android:shape="rectangle">
+    		<solid android:color="@android:color/white" />
+    		<corners android:radius="@dimen/input_padding"/>
+			<stroke
+				android:width="1px"
+				android:color="@color/colorUnderLine" />
+    	</shape>
+	</item>
+</layer-list>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:id="@+id/layoutBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/imgBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutBanner">
+
+        <fragment
+            android:id="@+id/mapOrder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.gts.toc.Activity.CreateOrderActivityNew"
+            android:name="com.google.android.gms.maps.MapFragment" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnPickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/input_margin"
+            android:src="@drawable/ic_send_black_24dp"
+            android:tint="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@+id/mapOrder"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/input_padding"
+            android:paddingTop="@dimen/input_margin"
+            android:paddingBottom="@dimen/input_margin"
+            android:paddingLeft="@dimen/fab_margin"
+            android:paddingRight="@dimen/fab_margin"
+            android:background="@drawable/white_bg">
+
+            <RelativeLayout
+                android:id="@+id/layout_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/underline">
+                <TextView
+                    android:id="@+id/viewAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize2"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/label_address"/>
+                <EditText
+                    android:id="@+id/input_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/viewAddress"
+                    android:textColor="@android:color/black"
+                    android:alpha="0.6"
+                    android:textSize="@dimen/textsize2"
+                    android:singleLine="false"
+                    android:background="@android:color/transparent" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_address"
+                android:layout_marginTop="@dimen/input_margin"
+                android:paddingBottom="@dimen/input_padding"
+                android:background="@drawable/underline">
+                <TextView
+                    android:id="@+id/viewDistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize2"
+                    android:text="@string/label_distance"
+                    android:textColor="@color/colorPrimary" />
+                <TextView
+                    android:id="@+id/viewEstimasiDistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/textsize2"
+                    android:textColor="@android:color/black"
+                    android:alpha="0.6"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

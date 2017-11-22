@@ -1,0 +1,64 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/orderdetail_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/input_margin"
+    android:layout_centerHorizontal="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/log_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_radio_button_checked_black_24dp"
+            android:tint="@color/colorAccent"
+            android:alpha="0.6"
+            android:layout_centerVertical="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/log_indicator"
+            android:layout_toEndOf="@+id/log_indicator"
+            android:layout_marginLeft="@dimen/input_margin"
+            android:layout_marginStart="@dimen/input_margin"
+            android:layout_marginRight="@dimen/input_padding"
+            android:layout_marginEnd="@dimen/input_padding"
+            android:paddingBottom="@dimen/input_padding"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/log_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:alpha="0.6"
+                android:textSize="@dimen/textsize1"
+                android:text="@string/app_name"
+                android:textStyle="italic"/>
+            <TextView
+                android:id="@+id/log_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/log_date"
+                android:textColor="@android:color/black"
+                android:alpha="0.6"
+                android:textSize="@dimen/textsize3"
+                android:text="@string/app_name"/>
+            <TextView
+                android:id="@+id/log_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/log_desc"
+                android:textColor="@color/colorAccent"
+                android:alpha="0.6"
+                android:textSize="@dimen/textsize2"
+                android:text="@string/app_name"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
